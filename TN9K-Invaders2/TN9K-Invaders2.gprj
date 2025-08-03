@@ -1,0 +1,33 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="proms/invaders_rom_d.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/invaders_rom_e.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/invaders_rom_f.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/invaders_rom_g.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/invaders_rom_h.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80_MCode.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80_Pack.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T80/T80_Reg.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/T8080se.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dac.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dblscan.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/dpram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gen_ram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/invaders.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/invaders2_top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/invaders_audio.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/invaders_video.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/mw8080.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN9K-Invaders2.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
